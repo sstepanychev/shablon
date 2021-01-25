@@ -120,6 +120,13 @@ ul, li
 	height: 1000px;
 }
 
+.ts h2
+{
+	color: #ed6c0d;
+	font-weight: bold;
+	padding-top: 20px;
+}
+
 .footer
 {
 	padding: 10px 0px 0px 0px;
