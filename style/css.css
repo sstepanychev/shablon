@@ -1,0 +1,191 @@
+
+
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', arial, sans-serif;
+	z-index: 100;	
+}
+
+section
+{
+	background-color: #ebeef3;	
+}
+
+.header
+{
+	/**width: 1170px;
+	margin: 0 auto;*/
+	display: flex;
+	align-items: center;
+	/*justify-content: space-around;*/
+	padding-bottom: 10px;
+
+}
+
+ul, li
+{
+	display: block;
+	padding: 0;
+}
+
+.header ul
+{
+	display: flex;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.header ul i a
+{
+	display: flex;
+	/*flex-wrap: nowrap;*/
+}
+
+.logo img
+{
+	/*margin-right: 69px;*/
+	/*background-size: cover;*/
+	width: 80%;
+}
+
+.tel a
+{
+	text-decoration: none;
+	font-size: 17px;
+	padding-right: auto;
+	color: #000;
+	font-weight: bold;
+}	
+
+.menu li a
+{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;		  	
+}
+
+.menu li
+{
+	margin: 0px 20px;
+	padding-top: 0px;	
+}
+
+.menu li a
+{
+	color: #000;
+}
+
+.border
+{
+	/*border 1px solid #d4d4d4;*/
+}
+
+.strip1
+{
+	width: 102%;
+	height: 4px;
+	background-color: #BFBFBF;
+}
+
+.strip2
+{
+	width: 102%;
+	height: 7px;
+	background-color: #E0E0E0;
+}
+
+.strip3
+{
+	width: 102%;
+	height: 10px;
+	background-color: #ebeef3;
+}
+
+.menu_
+{
+	border: 1px solid #d4d4d4;
+	text-align: center;
+	background-color: #fff;	
+	padding: 10px 0px 0px 20px;		
+}
+
+.ts
+{
+	text-align: center;
+	background-color: #fff;
+	border: 1px solid #d4d4d4;
+	height: 1000px;
+}
+
+.footer
+{
+	padding: 10px 0px 0px 0px;
+	border: 0px solid #D4D4D4;
+	background-color: #089c0d;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.img_1
+{
+	width: 100%;
+	height: 500px;
+	border: 20px solid #d4d4d4;
+	padding: 20px;
+	background: #f4f4f4 url("../images/grechka_cvety.jpg") no-repeat;
+	background-size: cover;
+	/*background-origin: border-box;*/
+}
+
+.polosa
+{
+	height: 40px;
+}
+
+.group
+{
+	border: 0px solid #d4d4d4;
+	margin:; 10px;
+	height: 200px;
+}
+
+.foto_1
+{
+	width: 100%;
+	height: 100%;
+	border: 10px solid #d4d4d4;
+	padding: 0;
+	margin: 0;
+	background: #f4f4f4 url("../images/osoznannost.jpg") no-repeat;
+	background-size: cover;
+	/*background-origin: border-box;*/
+}
+
+.foto_2
+{
+	width: 100%;
+	height: 100%;
+	border: 10px solid #d4d4d4;
+	padding: 0;
+	margin: 0;
+	background: #f4f4f4 url("../images/istorija.jpg") no-repeat;
+	background-size: cover;
+	background-origin: border-box;
+}
+
+.foto_3
+{
+	width: 100%;
+	height: 100%;
+	border: 10px solid #d4d4d4;
+	padding: 0;
+	margin: 0;
+	background: #f4f4f4 url("../images/kartina_mira.jpg") no-repeat;
+	background-size: cover;
+	/*background-origin: border-box;*/
+}

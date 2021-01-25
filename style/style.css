@@ -1,0 +1,178 @@
+	
+	*
+	{ 
+		margin: 0;
+		padding: 0; /* Убираем отступы и поля для всех элементов */
+	} 
+   
+	body
+	{
+		/*background-color: #edf1f5;*/
+		background-color: #ebeef3;
+		min-width: 320px;
+		z-index: 100;
+		margin-top: 0px;
+	}
+	
+	.container-fluid
+	{
+		margin-top: 0px;
+	}
+	
+	.strip1
+	{
+		width: 102%;
+		height: 4px;
+		background-color: #BFBFBF;
+	}
+	
+	.strip2
+	{
+		width: 102%;
+		height: 7px;
+		background-color: #E0E0E0;
+	}
+	
+	.strip3
+	{
+		width: 102%;
+		height: 10px;
+		background-color: #ebeef3;
+	}
+	
+	.ts
+	{
+		text-align: center;
+		background-color: #fff;
+		border: 1px solid #d4d4d4;
+		height: 1000px;
+	}
+	
+	.header
+	{
+		position: fixed;
+		width: 100%;
+		padding: 10px 0px 10px 0px;
+		border: 1px solid #D4D4D4;
+		background-color: #fff;
+		font-family: 'Montserrat', arial, sans-serif;
+		z-index: 101;
+		display: flex;
+		justify-content: spice-between;
+	}
+	
+	.header_
+	{
+		width: 100%;
+		padding: 10px 0px 10px 0px;
+		border: 1px solid #D4D4D4;
+		background-color: #fff;
+		font-family: 'Montserrat', arial, sans-serif;
+		z-index: 101;
+		display: flex;
+		justify-content: spice-between;			
+	}
+	
+	
+	.footer
+	{
+		padding: 10px 0px 0px 0px;
+		border: 0px solid #D4D4D4;
+		background-color: #089c0d;
+		color: #fff;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: bold;
+		font-size: 15px;
+	}
+	
+	.logo
+	{
+		margin: 0px;
+		padding: 0px;
+	}
+	
+	.logo img
+	{
+		/*float: left;*/
+		padding: 0px 0px 10px 0px;
+		width: 80%;
+		height: auto;
+	}
+	
+	a
+	{
+		color: #000;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: bold;
+		font-size: 15px;
+		padding: 0px 0px 0px 0px;
+	}
+	
+	img
+	{
+		width: 100%;
+		height: auto;
+	}
+	
+	p
+	{
+		text-align: left;
+	}
+	
+	h1
+	{
+		padding-top: 15px;
+	}
+	
+	.border
+	{
+		border: 1px solid #d4d4d4;
+		padding-top: 0px;
+		
+	}
+	
+	.border_
+	{
+		border: 2px solid #d4d4d4;
+		padding: 0px 30px 10px 30px;
+	}
+	
+	form
+	{
+		padding-top: 20px;
+	}
+	
+	.top
+	{
+		padding-top: 20px;
+	}
+	
+	.menu
+	{
+		border: 1px solid #d4d4d4;
+		text-align: center;
+		background-color: #fff;	
+		padding: 10px 0px 0px 20px;		
+	}
+	
+	input[name="submit1"]
+	{
+		background-color: #089c0d;
+		color: #fff;
+		font-weight: bold;
+		margin-left: 10px;
+	}
+	
+	input[name="submit1"]:hover
+	{
+		background-color: #087f0d;
+		color: #fff;
+		font-weight: bold;
+		margin-left: 10px;
+	}
+	
+	.margin
+	{
+		padding-top: 10px;
+	}
+	

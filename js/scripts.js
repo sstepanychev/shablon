@@ -1,0 +1,9 @@
+	//jQuery(document).ready
+	jQuery
+	(
+		function()
+		{
+			//$('a').css({'color':'red'});
+			console.log('gfhfhfjf');
+		}
+	);
