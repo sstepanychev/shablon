@@ -50,7 +50,7 @@ ul, li
 	width: 80%;
 }
 
-.tel a
+.tel
 {
 	text-decoration: none;
 	font-size: 17px;
@@ -58,6 +58,28 @@ ul, li
 	color: #000;
 	font-weight: bold;
 }	
+
+.btn_gl_menu
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	background-size: cover;
+}
+
+.btn_gl_menu img
+{
+	padding: 0px 9px; 
+}
+
+.menu
+{
+	margin: 0;
+	padding:0;
+}
+
 
 .menu li a
 {
